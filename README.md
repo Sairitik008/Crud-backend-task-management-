@@ -16,21 +16,6 @@ REST API built using Django REST Framework
 
 Responsive, modern frontend design
 
-🧱 Project Structure
-task-manager/
-│
-├── backend/              # Django backend (API)
-│   ├── manage.py
-│   ├── taskmanager/
-│   └── tasks/
-│
-├── frontend/             # Frontend files
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-│
-└── README.md
-
 ⚙️ Backend Setup (Django)
 
 Navigate to the backend folder:
