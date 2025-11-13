@@ -1,0 +1,104 @@
+# ============================================
+# PYTHON / DJANGO
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Django files
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Static and media files (generated)
+staticfiles/
+static/
+media/
+
+# ============================================
+# FRONTEND (React, Vue, Angular, etc.)
+# ============================================
+# Node modules and build outputs
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.next/
+frontend/.nuxt/
+frontend/.cache/
+
+# Frontend env/config files
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Lock and log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ============================================
+# TESTING / COVERAGE
+# ============================================
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+*.hypothesis/
+.pytest_cache/
+
+# ============================================
+# IDE / EDITOR SETTINGS
+# ============================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ============================================
+# SYSTEM FILES
+# ============================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================
+# TYPE CHECKERS / LINTERS
+# ============================================
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# ============================================
+# LOGS
+# ============================================
+*.log
+logs/
+
+# ============================================
+# BACKEND ENVIRONMENT FILES
+# ============================================
+.env
+*.env
+*.ini
+*.cfg

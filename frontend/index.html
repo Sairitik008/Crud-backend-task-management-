@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="app-header">
+    <h1>🗂️ Task Manager</h1>
+  </header>
+
+  <main class="container">
+    <!-- Add Task Form -->
+    <section class="form-section">
+      <h2>Add New Task</h2>
+      <form id="create-form">
+        <input type="text" id="title" placeholder="Task title" required>
+        <textarea id="description" placeholder="Task description (optional)"></textarea>
+        <button type="submit" class="btn-primary">Add Task</button>
+      </form>
+    </section>
+
+    <!-- Task List -->
+    <section class="task-section">
+      <h2>Task List</h2>
+      <ul id="task-list" class="task-list"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Task Manager. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
